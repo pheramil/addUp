@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="u-xa-compatible" content="ie=edge">
+
+        <title>addUp</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="addUp.js" defer></script>
+        <script src="reset.js" defer></script>
+        <script src="toggle.js" defer></script>
+    </head>
+
+    <body>
+        <nav id="nav">
+
+            <div id="logo">
+                <p>addUp</p>
+            </div>
+
+            <a href="#" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <div id="list">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <section>
+
+            <div id="box">
+                <p id="prompt">Input an integer to increment that number</p>
+                <br>
+                <div class="center">
+                    <input id="input" type="text" name="integer" placeholder="Enter in an integer">
+                    <button class="button" id="runButton" onclick="addUp()">Run</button>
+                    <button class="button" id="resetbutton" onclick="reset()">Reset</button>
+                </div>
+                
+            </div>
+
+        </section>
+    </body>
+
+</html>
